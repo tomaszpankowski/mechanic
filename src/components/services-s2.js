@@ -7,11 +7,11 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class ServicesS2 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex minh-50vh bg-light align-items-center py-5">
+            <Container fluid className="services-s2 d-flex minh-50vh bg-light align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
-                    <Col xs={12} md={{span:6,offset:6}} lg={{span:5,offset:7}} 
-                        className="minh-50vh d-flex align-items-center">
-                        <div className="w-100 text-center text-md-start">
+                    <Col xs={12} md={6} 
+                        className="minh-50vh d-flex align-items-center mx-auto">
+                        <div className="w-100 text-center">
                             <h2 className="dispaly-6 fw-bold text-secondary text-shadow">
                                 Lorem ipsum
                             </h2>
